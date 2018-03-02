@@ -1,0 +1,132 @@
+    1  yum install git -y
+    2  yum install gcc ncurses-devel ncurses
+    3  ip a
+    4  vi /etc/sysctl.d
+    5  cd /etc/sysctl.d/
+    6  ll
+    7  cd ..
+    8  cd sysconfig/network-scripts/
+    9  ll
+   10  vi ifcfg-enp0s3
+   11  vi ifcfg-enp0s8
+   12  systemctl restart network.service
+   13  systemctl restart network.services
+   14  systemctl restart network.service
+   15  ip a
+   16  ping 8.8.8.8
+   17  cd ..
+   18  yum install git -y
+   19  yum install gcc ncurses-devel ncurses
+   20  yum install nano -y
+   21  make
+   22  make install
+   23  cd /tmp/
+   24  git clone https://github.com/brayanhenao/so-workshop2.git
+   25  cd so-workshop2/
+   26  ls
+   27  git checkout -d A00056004/workshop2
+   28  git checkout -b A00056004/workshop2
+   29  ll
+   30  cd ..
+   31  ll
+   32  cd so-workshop2/
+   33  ll
+   34  ls -l
+   35  git pull
+   36  git branch .a
+   37  git branch -a
+   38  git pull
+   39  ll
+   40  git checkout -d remotes/origin/A00056004/workshop2
+   41  git checkout -b remotes/origin/A00056004/workshop2
+   42  ll
+   43  cat README.md 
+   44  ll
+   45  git checkout -b A00056004/workshop2
+   46  git checkout A00056004/workshop2
+   47  git branch -a
+   48  ll
+   49  git pull -a
+   50  git pull
+   51  git pull origin 
+   52  git pull origin A00056004/workshop2
+   53  ññ
+   54  ll
+   55  cd A00056004/
+   56  ll
+   57  nano Makefile
+   58  ll
+   59  nano Makefile
+   60  nano Sysc01.c
+   61  ip a
+   62  reboot
+   63  ip a
+   64  cd sysconfig/network-scripts/
+   65  cd /etc/sysconfig/network-scripts/
+   66  nano ifcfg-enp0s8
+   67  ll
+   68  grep
+   69  grep -h
+   70  grep --help
+   71  nano ifcfg-enp0s3
+   72  poweroff
+   73  cd /tmp/
+   74  ll
+   75  cd so-workshop2/A00056004/
+   76  ll
+   77  make sysc2
+   78  ll
+   79  mv Sysc02.o Sysc02.c
+   80  ll
+   81  make sysc2
+   82  ll
+   83  poweroff
+   84  cd /tmp/so-workshop2/A00056004/
+   85  ll
+   86  nano Sysc02.c
+   87  make sysc2
+   88  poweroff
+   89  cd /tmp/so-workshop2/A00056004/
+   90  ll
+   91  nano Sysc03.c
+   92  make sysc3
+   93  ./Sysc03.o
+   94  ll
+   95  ./Sysc03.o
+   96  nano Sysc03.c
+   97  make sysc3
+   98  ./Sysc03.o
+   99  ll
+  100  ./Sysc03.o
+  101  ll
+  102  ./Sysc03.o
+  103  ll
+  104  nano Sysc03.c
+  105  nano README.md 
+  106  ll
+  107  nano README.md 
+  108  nano command_list.txt
+  109  LL
+  110  ll
+  111  git commit -m "Add workshop-2 files"
+  112  ls -l
+  113  nano .git/config 
+  114  cd ..
+  115  nano .git/config 
+  116  git add --all
+  117  git commit -m "Add workshop-2 files"
+  118  git push origin A00056004/workshop2
+  119  ll
+  120  cd A00056004/
+  121  ll
+  122  rm .Sysc02.c.swp 
+  123  ll
+  124  cd ..
+  125  git add --all
+  126  git commit -m "Delete wrong file"
+  127  git push origin A00056004/workshop2
+  128  cd ..
+  129  git clone https://github.com/brayanhenao/Desarrollo-Web-Avanzado.git
+  130  cd Desarrollo-Web-Avanzado/
+  131  ll
+  132  history > command_list.txt
