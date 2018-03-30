@@ -1,0 +1,46 @@
+    1  ll
+    2  lls
+    3  ls
+    4  ls
+    5  apt-get update
+    6  apt-get upgrade
+    7  apt-get install git -y
+    8  ls
+    9  mkdir Operativos
+   10  cd Operativos/
+   11  apt-get install tig -y
+   12  tig
+   13  history > historial_comandos
+   14  ls
+   15  reboot
+   16  ip a
+   17  cat /proc/version 
+   18  uname
+   19  uname -o
+   20  uname -a
+   21  cat /proc/version 
+   22  cat /proc/version 
+   23  root@debian:/home/bhenao# cat /proc/version
+   24  lsb release -a
+   25  lsb_release -a
+   26  root@debian:/home/bhenao# lsb_release -a
+   27  No LSB modules are available.
+   28  Distributor ID: Debian
+   29  Description:    Debian GNU/Linux 9.4 (stretch)
+   30  Release:        9.4
+   31  Codename:       stretch
+   32  apt-get --purge remove git
+   33  exit
+   34  apt-get git tig -y
+   35  apt-get install git tig -y
+   36  cd Operativos/
+   37  ls
+   38  cd so-exam1/
+   39  tig
+   40  tig
+   41  git pull
+   42  cd ..
+   43  git clone https://github.com/brayanhenao/Desarrollo-Web-Avanzado.git
+   44  ls
+   45  cd Desarrollo-Web-Avanzado/
+   46  history > lista_comandos
